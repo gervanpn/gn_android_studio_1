@@ -40,6 +40,7 @@ public class Timer extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 //                startTime = new Long(String.valueOf(myTimeInput.getText()));
+                
 //                checkTime();
                 if (running) {
                     pauseTimer();
