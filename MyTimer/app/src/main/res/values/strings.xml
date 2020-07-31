@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignments</string>
+    <string name="homeButton">H O M E</string>
+    <string name="startButton">START</string>
+    <string name="pauseButton">PAUSE</string>
+    <string name="stopButton">STOP</string>
+    <string name="resetButton">RESET</string>
+    <string name="inFeet">Feet</string>
+    <string name="inInches">Inches</string>
+    <string name="how_many_minutes">How Many Minutes</string>
+    <string name="countdownTime">1</string>
+    <string name="action_settings">Settings</string>
+</resources>
