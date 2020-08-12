@@ -5,9 +5,13 @@
     <string name="pauseButton">PAUSE</string>
     <string name="stopButton">STOP</string>
     <string name="resetButton">RESET</string>
+    <string name="startServiceButton">START SERVICE</string>
+    <string name="stopServiceButton">STOP SERVICE</string>
     <string name="inFeet">Feet</string>
     <string name="inInches">Inches</string>
-    <string name="how_many_minutes">How Many Minutes</string>
+    <string name="minutes">How Many Minutes</string>
     <string name="countdownTime">1</string>
+    <string name="serviceButton">Service 1</string>
     <string name="action_settings">Settings</string>
+    <string name="main_title">Android Apps for Gervan Nantel</string>
 </resources>

@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Android Apps for Gervan Nantel"
-        android:textColor="#FF5722"
+        android:text="@string/main_title"
+        android:textColor="@color/colorMine"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,13 +71,23 @@
         app:layout_constraintTop_toBottomOf="@+id/button_tbd" />
 
     <Button
+        android:id="@+id/button_service1"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/serviceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_stopwatch" />
+
+    <Button
         android:id="@+id/button_big"
         android:layout_width="105dp"
         android:layout_height="101dp"
         android:layout_marginBottom="32dp"
         android:text="My Big Button"
         android:textAllCaps="false"
-        android:textColor="#FF5722"
+        android:textColor="@color/colorMine"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"

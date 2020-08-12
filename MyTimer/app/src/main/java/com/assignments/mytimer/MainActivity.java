@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button_big, button_tbd, button_height, button_ttt, button_calc, button_timer, button_stopwatch;
+    private Button button_big, button_tbd, button_height, button_ttt, button_calc, button_timer, button_stopwatch, button_service1;
     private Activity v;
 
     @Override
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button_stopwatch = findViewById(R.id.button_stopwatch);
         button_height = findViewById(R.id.button_height);
         button_big = findViewById(R.id.button_big);
+        button_service1 = findViewById(R.id.button_service1);
 
         v = this;
 
@@ -71,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(v, com.assignments.mytimer.MyHeight.class);
+                startActivity(i);
+            }
+        });
+
+        button_service1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(v, com.assignments.mytimer.Service1.class);
                 startActivity(i);
             }
         });
