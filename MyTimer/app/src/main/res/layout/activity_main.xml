@@ -27,7 +27,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="64dp"
-        android:text="My Calc"
+        android:text="@string/my_calc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toEndOf="@+id/button_ttt"
@@ -38,9 +38,9 @@
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="64dp"
-        android:text="TBD"
+        android:text="@string/tbd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/button_height"
@@ -51,9 +51,9 @@
         android:layout_width="140dp"
         android:layout_height="50dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:text="My Height"
+        android:text="@string/my_height"
         app:layout_constraintEnd_toStartOf="@+id/button_tbd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_ttt" />
@@ -65,7 +65,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="64dp"
-        android:text="Stop Watch"
+        android:text="@string/stop_watch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_timer"
         app:layout_constraintTop_toBottomOf="@+id/button_tbd" />
@@ -74,10 +74,12 @@
         android:id="@+id/button_service1"
         android:layout_width="140dp"
         android:layout_height="50dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="64dp"
         android:text="@string/serviceButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_todo"
         app:layout_constraintTop_toBottomOf="@+id/button_stopwatch" />
 
     <Button
@@ -85,7 +87,7 @@
         android:layout_width="105dp"
         android:layout_height="101dp"
         android:layout_marginBottom="32dp"
-        android:text="My Big Button"
+        android:text="@string/my_big_button"
         android:textAllCaps="false"
         android:textColor="@color/colorMine"
         android:textSize="18sp"
@@ -101,10 +103,22 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:text="My Timer"
+        android:text="@string/my_timer"
         app:layout_constraintEnd_toStartOf="@+id/button_stopwatch"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_height" />
+
+    <Button
+        android:id="@+id/button_todo"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/my_to_do"
+        app:layout_constraintEnd_toStartOf="@+id/button_service1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_timer" />
 
     <Button
         android:id="@+id/button_ttt"
@@ -113,7 +127,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:text="Tic Tac Toe"
+        android:text="@string/tic_tac_toe"
         app:layout_constraintEnd_toStartOf="@+id/button_calc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_main" />
